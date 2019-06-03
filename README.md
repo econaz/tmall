@@ -31,8 +31,8 @@ tmall
 技术 | 说明 | 官网
 ----|----|----
 Spring Boot | 容器+MVC框架 | [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot)
+Spring data JPA | ORM框架  | [https://spring.io/projects/spring-data-jpa](https://spring.io/projects/spring-data-jpa)
 Shiro | 认证和授权框架 | [https://spring.io/projects/spring-security](https://spring.io/projects/spring-security)
-Spring data JPA | ORM框架  | [http://www.mybatis.org/mybatis-3/zh/index.html](http://www.mybatis.org/mybatis-3/zh/index.html)
 Swagger-UI | 文档生产工具 | [https://github.com/swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui)
 Hibernator-Validator | 验证框架 | [http://hibernate.org/validator/](http://hibernate.org/validator/)
 Elasticsearch | 搜索引擎 | [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
@@ -43,7 +43,8 @@ Docker | 应用容器引擎 | [https://www.docker.com/](https://www.docker.com/)
 Druid | 数据库连接池 | [https://github.com/alibaba/druid](https://github.com/alibaba/druid)
 OSS | 对象存储 | [https://github.com/aliyun/aliyun-oss-java-sdk](https://github.com/aliyun/aliyun-oss-java-sdk)
 JWT | JWT登录支持 | [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
-Logback | 日志收集 | [https://github.com/logstash/logstash-logback-encoder](https://github.com/logstash/logstash-logback-encoder)
+Sl4j| 日志组件 | [https://www.slf4j.org/](https://www.slf4j.org/)
+Logback | 日志系统 | [https://logback.qos.ch/](https://logback.qos.ch/)
 Lombok | 简化对象封装工具 | [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
 
 
@@ -77,5 +78,31 @@ Elasticsearch | 6.2.2 | https://www.elastic.co/downloads
 MongoDb | 3.2 | https://www.mongodb.com/download-center
 RabbitMq | 3.7.14 | http://www.rabbitmq.com/download.html
 nginx | 1.10 | http://nginx.org/en/download.html
+
+
+
+## 当前开发
+
+### 用户模块设计
+
+#### 1.用户注册
+根据注册页面设计来实现相应功能
+
+#### 2.用户登录
+SSO单点登录
+
+#### 3.用户权限管理
+认证与授权
+
+#### 4.用户信息修改
+
+
+
+
+
+
+
+
+
 
 
